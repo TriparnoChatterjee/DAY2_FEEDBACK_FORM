@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <h3>FEEDBACK FORM</h3>
+    <div class="container">
+        <div class="feedback_form">
+            <form action="">
+                <div class="form-component">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div class="form-component">
+                    <p>Please select your Gender:</p>
+                    <div class="form-component_radio">
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label for="html">Male</label><br>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label for="css">Female</label><br>
+                        <input type="radio" id="Others" name="gender" value="Others">
+                        <label for="javascript">Others</label>
+                    </div>
+                </div>
+                <div class="form-component">
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="emial" placeholder="email">
+                </div>
+
+                <div class="form-component">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">India</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+
+                <div class="form-component">
+                    <label for="subject">Your Feedback</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:150px"></textarea>
+                </div>
+
+
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
